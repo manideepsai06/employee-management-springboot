@@ -19,9 +19,10 @@ This project is a simple yet production-ready **CRUD web application** that allo
 ## ⚙️ Setup Instructions (Run App Locally)
 
 ### ✅ Step 1: Install Chocolatey (Windows only)
-Set-ExecutionPolicy Bypass -Scope Process -Force;  
-[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;  
-iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+     Set-ExecutionPolicy Bypass -Scope Process -Force;  
+     [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;  
+     iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 ### ✅ Step 2: Install Java JDK 17
      
@@ -30,12 +31,13 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocola
        Command : java -version
 
 ### ✅ Step 3: Install Maven
+
         Command : choco install maven -y
         Verify Maven:
-        command : mvn -v 
-        powershell '''    
+        command : mvn -v    
         
 ### ✅ STEP 4: Setup Spring Boot App
+
         first install Git
         Command : choco install git -y
         Then : 
@@ -43,6 +45,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocola
                   cd employee-management-springboot
 
 ### ✅ STEP 5: Run the Spring Boot Application
+
         From the project folder: 
         Command : mvn clean install 
                   ![image](https://github.com/user-attachments/assets/1b39a258-20e7-4dbf-a000-3d7cd9457f4a)
