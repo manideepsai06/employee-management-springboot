@@ -34,7 +34,8 @@ Command : java -version
         ```powershell    
         Command : choco install maven -y
         Verify Maven:
-        command : mvn -v
+        command : mvn -v 
+        powershell ```    
         
 STEP 4: Setup Spring Boot App
         first install Git
