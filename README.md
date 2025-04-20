@@ -9,7 +9,7 @@ Database - h2
 # Setup for running app locally
 STEP 1: Install Chocolatey (Only once)[This can make installation easy]
         Open PowerShell as Administrator, then run:
-        Command : Set-ExecutionPolicy Bypass -Scope Process -Force;
+        Command : -- Set-ExecutionPolicy Bypass -Scope Process -Force;
                   [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
                   iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
@@ -27,7 +27,7 @@ STEP 4: Setup Spring Boot App
         first install Git
         Command : choco install git -y
         Then : 
-        Command : git clone https://github.com/YOUR_USERNAME/employee-management-springboot.git
+        Command : git clone [https://github.com/YOUR_USERNAME/employee-management-springboot.git](https://github.com/manideepsai06/employee-management-springboot.git)
                   cd employee-management-springboot
 
 STEP 5: Run the Spring Boot Application
