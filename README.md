@@ -9,9 +9,10 @@ Database - h2
 # Setup for running app locally
 STEP 1: Install Chocolatey (Only once)[This can make installation easy]
         Open PowerShell as Administrator, then run:
-        Command : -- Set-ExecutionPolicy Bypass -Scope Process -Force;
-                  [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
-                  iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+        Command : 
+        Set-ExecutionPolicy Bypass -Scope Process -Force;
+        [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
+        iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 STEP 2: Install Java JDK 17
         Command : choco install openjdk17 -y
