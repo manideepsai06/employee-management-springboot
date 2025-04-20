@@ -20,13 +20,12 @@ This project is a simple yet production-ready **CRUD web application** that allo
 
 ### ✅ Step 1: Install Chocolatey (Windows only)
 
-```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force;
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
 iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 ### ✅ Step 2: Install Java JDK 17
-```powershell       
+     
 Command : choco install openjdk17 -y
 Verify Java: 
 Command : java -version
