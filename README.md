@@ -1,18 +1,30 @@
-# java-springboot
-This project is a simple web application which can perform CRUD operations on employee details using Springboot framework
-Tools and versions:
-Springboot - 3.4.4
-maven - 3.9.9
-java - 17
-Database - h2
+# 🚀 Employee Management System (Spring Boot)
 
-# Setup for running app locally
-STEP 1: Install Chocolatey (Only once)[This can make installation easy]
-        Open PowerShell as Administrator, then run:
-        Command : 
-        Set-ExecutionPolicy Bypass -Scope Process -Force;
-        [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
-        iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+This project is a simple yet production-ready **CRUD web application** that allows you to **Create, Read, Update, and Delete** employee details using the **Java Spring Boot** framework.
+
+🎓 Designed to be beginner-friendly and perfect for students exploring Java backend development!
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Java** – 17  
+- **Spring Boot** – 3.2.4  
+- **Maven** – 3.9.9  
+- **Database** – H2 (In-Memory)  
+- **Frontend** – Thymeleaf + Bootstrap 5
+
+---
+
+## ⚙️ Setup Instructions (Run App Locally)
+
+### ✅ Step 1: Install Chocolatey (Windows only)
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force;
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12;
+iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
 
 STEP 2: Install Java JDK 17
         Command : choco install openjdk17 -y
