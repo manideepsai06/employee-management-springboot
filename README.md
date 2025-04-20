@@ -26,9 +26,9 @@ This project is a simple yet production-ready **CRUD web application** that allo
 
 ### ✅ Step 2: Install Java JDK 17
      
-       Command : choco install openjdk17 -y
-       Verify Java: 
-       Command : java -version
+       choco install openjdk17 -y
+       #to check java version
+       java -version
 
 ### ✅ Step 3: Install Maven
 
