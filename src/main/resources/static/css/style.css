@@ -1,0 +1,89 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f1f3f6;
+    color: #333;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+h2 {
+    font-weight: 600;
+    color: #2d3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.table {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.table th {
+    background: #4b6cb7;
+    color: white;
+}
+
+.table td, .table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn {
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #4b6cb7;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #3a55a0;
+}
+
+.btn-warning {
+    background-color: #ff9800;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e68900;
+}
+
+.btn-danger {
+    background-color: #e53935;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c62828;
+}
+
+.btn-secondary {
+    background-color: #607d8b;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #455a64;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
