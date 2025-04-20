@@ -32,28 +32,28 @@ This project is a simple yet production-ready **CRUD web application** that allo
 
 ### ✅ Step 3: Install Maven
 
-        Command : choco install maven -y
-        Verify Maven:
-        command : mvn -v    
+        choco install maven -y
+        #Verify Maven:
+        mvn -v    
         
 ### ✅ STEP 4: Setup Spring Boot App
 
-        first install Git
-        Command : choco install git -y
-        Then : 
-        Command : git clone [https://github.com/YOUR_USERNAME/employee-management-springboot.git](https://github.com/manideepsai06/employee-management-springboot.git)
-                  cd employee-management-springboot
+        #first install Git
+        choco install git -y
+        #For cloning repo
+        git clone https://github.com/manideepsai06/employee-management-springboot.git
+        #to move to project folder
+        cd employee-management-springboot
 
 ### ✅ STEP 5: Run the Spring Boot Application
 
-        From the project folder: 
-        Command : mvn clean install 
-                  ![image](https://github.com/user-attachments/assets/1b39a258-20e7-4dbf-a000-3d7cd9457f4a)
-                  mvn spring-boot:run
+        mvn clean install 
+        #to run application
+        mvn spring-boot:run
 
 # After running app test the app by
-Opening this url in your browser: http://localhost:8080
-- for database access open url : http://localhost:8080/h2-console
-               set jdbc url to : jdbc:h2:mem:testdb
+Opening this url in your browser: http://localhost:8080  
+- for database access open url : http://localhost:8080/h2-console  
+  set jdbc url to : jdbc:h2:mem:testdb
 
 Happy Execution!!!
